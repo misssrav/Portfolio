@@ -28,6 +28,8 @@ export default function EducationCard({school}) {
               <img
                 crossOrigin={"anonymous"}
                 ref={imgRef}
+                width={100}
+                height={100}
                 className="education-roundedimg"
                 src={school.logo}
                 alt={school.schoolName}

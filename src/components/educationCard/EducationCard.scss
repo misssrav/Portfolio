@@ -53,6 +53,12 @@
   max-width: 70%;
 }
 
+.education-card-left{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
 .education-text-subHeader {
   color: $textColor;
   font-weight: 700;

@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Naveen Golla",
+  title: "Hi all, I'm Naveen",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / React / Nodejs / ASP.NET and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1R_A2yFjrecUE4vXOfqweeo7N3-S_lH_u/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Naveen-Golla123",
+  linkedin: "https://www.linkedin.com/in/naveen-golla-ba89a2143/",
+  gmail: "naveeng@csu.fullerton.edu",
+  medium: "https://medium.com/@naveengolla",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +46,15 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Curious Developer on a Mission to Master All Stacks!",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "💡 Problem Solver Extraordinaire: Thrive on dissecting complex problems and engineering elegant solutions, ensuring your project hurdles are always overcome."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "🚀 Passionate Full Stack Developer with a knack for solving real-time challenges through innovative web and Android solutions."
+    ),
+    emoji("🌐 Architectural Visionary: Crafting robust, scalable, and efficient architectures that power seamless user experiences.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -98,15 +95,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      fontAwesomeClassname: "fab fa-angular"
     },
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
     },
     {
       skillName: "python",
@@ -126,23 +119,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
+      schoolName: "California State University, Fullerton",
+      logo: require("./assets/images/california_State_University,_Fullerton_logo.png"),
       subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      duration: "August 2022 - May 2024",
+      desc: "Course Work: Web Backend engineering, Advanced Database Management, Advanced Algorithms, Network Security, Modren Software Management, System Requirements and Standards.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Birla Institute of Technology, Mesra.",
+      logo: require("./assets/images/bit_mesra_logo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "August 2016 - July 2020",
+      desc: "Course Work: Algorithm Analysis, Operating System, Java Programming, Database Management System, Computer Architecture, Artificial Intelligence, Software project management, Data mining, Statistics",
+      descBullets: []
     }
   ]
 };
@@ -153,16 +145,32 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
+      Stack: "Python",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Java",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Angular", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
+    },
+    {
+      Stack: "React",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "ASP.NET",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Nest.js",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Android Development",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +182,41 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer Intern",
+      company: "Inovalon",
+      companylogo: require("./assets/images/Inovalon_logo.png"),
+      date: "July 2020 – August 2023",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Achieved 80% Unit Test Case Coverage using Moq framework in ASP.NET solutions.",
+        "Optimized UI performance in Angular, reducing duplicated code and network calls with generic components.",
+        "Created a feature-rich internal page in the EDR portal enabling View, Delete, Edit, and Add functionalities for Client Configuration details.",
+        "Decoupled tightly-coupled APIs by implementing new API endpoints, significantly improving response time."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer",
+      company: "GEP Worldwide",
+      companylogo: require("./assets/images/GEP_Logo.png"),
+      date: "July 2020 – August 2022",
+      desc: "",
+      descBullets: [
+        "Developed micro front-end architecture by implementing versatile and reusable Angular plugins for the survey module which in turn cut down 80% of the other teams work.",
+        "Improved data retrieval process using .NET web APIs with Middleware and migrated SQL data to Neo4j reducing the API data retrieval time by 50% and performed unit testing of the features using xUnit and Cypress.js frameworks.",
+        "Worked in an agile environment implementing SCRUM methodologies and JIRA."
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "GEP worldwide",
+      companylogo: require("./assets/images/GEP_Logo.png"),
+      date: "Jan 2020 – Sep 2020",
+      desc: "",
+      descBullets: [
+        "Enhanced auction supplier bidding page load time by 60% by upgrading code to .NET core in micro-service based environment using repository pattern in C#, Angular and Typescript.",
+        "Optimized stored procedures, triggers, functions and integrated caching mechanism using redis tool for live Auction engine.",
+        "Conceptualized and implemented features to enhance buyer experience such as chat application using SignalR, Graphical representation in Highcharts.js."
+      ]
     }
   ]
 };
@@ -206,7 +226,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +259,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +320,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +344,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +363,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +376,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "",
+  number: "+16572754610",
+  email_address: "naveeng@csu.fullerton.edu"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
