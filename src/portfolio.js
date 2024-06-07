@@ -20,23 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Naveen Golla",
-  title: "Hi all, I'm Naveen",
+  username: "Sravya Naragam",
+  title: "Hi all, I'm Sravya",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Angular / React / Nodejs / ASP.NET and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1R_A2yFjrecUE4vXOfqweeo7N3-S_lH_u/view", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1fGY5YuYMLYFx2JweZUV9Lu4ufYTs9o5n/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/Naveen-Golla123",
-  linkedin: "https://www.linkedin.com/in/naveen-golla-ba89a2143/",
-  gmail: "naveeng@csu.fullerton.edu",
-  medium: "https://medium.com/@naveengolla",
+  github: "https://github.com/misssrav",
+  linkedin: "https://www.linkedin.com/in/sravya-naragam-09/",
+  gmail: "sravyan99@gmail.com",
+  // medium: "https://medium.com/@naveengolla",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -115,17 +115,17 @@ const educationInfo = {
       logo: require("./assets/images/california_State_University,_Fullerton_logo.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2022 - May 2024",
-      desc: "Course Work: Web Backend engineering, Advanced Database Management, Advanced Algorithms, Network Security, Modren Software Management, System Requirements and Standards.",
+      desc: "Course Work:  Advanced Algorithms, Advanced Database Management, Mobile Development, Modern Software Management, Cloud Computing, Artificial Intelligence.",
       descBullets: [
         
       ]
     },
     {
-      schoolName: "Birla Institute of Technology, Mesra.",
-      logo: require("./assets/images/bit_mesra_logo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada.",
+      logo: require("./assets/images/vrsec.png"),
+      subHeader: "Bachelor of Science in Electronics and Communication Engineering",
       duration: "August 2016 - July 2020",
-      desc: "Course Work: Algorithm Analysis, Operating System, Java Programming, Database Management System, Computer Architecture, Artificial Intelligence, Software project management, Data mining, Statistics",
+      desc: "Course Work: Algorithm Analysis, Operating System, Python Programming, Computer Architecture, Artificial Intelligence, Software project management, Data mining, Statistics",
       descBullets: []
     }
   ]
@@ -175,9 +175,9 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer Intern",
-      company: "Inovalon",
-      companylogo: require("./assets/images/Inovalon_logo.png"),
-      date: "July 2020 – August 2023",
+      company: "Ontrix",
+      companylogo: require("./assets/images/ontrix.png"),
+      date: "May 2024 – present",
       desc: "",
       descBullets: [
         "Achieved 80% Unit Test Case Coverage using Moq framework in ASP.NET solutions.",
@@ -188,8 +188,8 @@ const workExperiences = {
     },
     {
       role: "Software Engineer",
-      company: "GEP Worldwide",
-      companylogo: require("./assets/images/GEP_Logo.png"),
+      company: "Tata Consultancy Services Limited",
+      companylogo: require("./assets/images/tcs.png"),
       date: "July 2020 – August 2022",
       desc: "",
       descBullets: [
@@ -198,18 +198,18 @@ const workExperiences = {
         "Worked in an agile environment implementing SCRUM methodologies and JIRA."
       ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "GEP worldwide",
-      companylogo: require("./assets/images/GEP_Logo.png"),
-      date: "Jan 2020 – Sep 2020",
-      desc: "",
-      descBullets: [
-        "Enhanced auction supplier bidding page load time by 60% by upgrading code to .NET core in micro-service based environment using repository pattern in C#, Angular and Typescript.",
-        "Optimized stored procedures, triggers, functions and integrated caching mechanism using redis tool for live Auction engine.",
-        "Conceptualized and implemented features to enhance buyer experience such as chat application using SignalR, Graphical representation in Highcharts.js."
-      ]
-    }
+    // {
+    //   role: "Software Engineer Intern",
+    //   company: "GEP worldwide",
+    //   companylogo: require("./assets/images/GEP_Logo.png"),
+    //   date: "Jan 2020 – Sep 2020",
+    //   desc: "",
+    //   descBullets: [
+    //     "Enhanced auction supplier bidding page load time by 60% by upgrading code to .NET core in micro-service based environment using repository pattern in C#, Angular and Typescript.",
+    //     "Optimized stored procedures, triggers, functions and integrated caching mechanism using redis tool for live Auction engine.",
+    //     "Conceptualized and implemented features to enhance buyer experience such as chat application using SignalR, Graphical representation in Highcharts.js."
+    //   ]
+    // }
   ]
 };
 
@@ -224,7 +224,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Major Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -375,8 +375,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "",
-  number: "+16572754610",
-  email_address: "naveeng@csu.fullerton.edu"
+  number: "+16577998478",
+  email_address: "sravyan99@gmail.com"
 };
 
 // Twitter Section
